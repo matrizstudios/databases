@@ -1,0 +1,25 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "dependencies": {
+    "@types/fs-extra": "^11.0.1",
+    "@types/mysql": "^2.15.21",
+    "@types/node-cron": "^3.0.7",
+    "aws-sdk": "^2.1359.0",
+    "child_process": "^1.0.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "fs-extra": "^11.1.1",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.43",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.2.3",
+    "node-cron": "^3.0.2",
+    "nodemon": "^2.0.22"
+  },
+  "scripts": {
+    "start": "npx nodemon server.js"
+  }
+}
